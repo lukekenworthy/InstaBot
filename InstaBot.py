@@ -14,12 +14,12 @@ COMMENT_LIST = ["Wow!", "Love this!!!", "Amazing", "Astounding!", "incredible!",
 # you reduce the likelihood of your account getting flagged.
 AVERAGE_COMMENT_FREQUENCY = 80
 
+# Input the directory location of your webdriver.
+BROWSER = webdriver.Chrome("C:\\Users\\Luke Kenworthy\\Documents\\chromedriver.exe")
+
 commentListLength = len(COMMENT_LIST)
 fileCounter = 0
 followedAccounts = []
-
-#
-BROWSER = webdriver.Chrome("C:\\Users\\Luke Kenworthy\\Documents\\chromedriver.exe")
 
 def main():
     BROWSER.get('http://www.instagram.com')
