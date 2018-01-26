@@ -1,5 +1,5 @@
 # InstagramBot
-Uses Selenium within Python to automate commenting and liking posts with certain hashtags to gain subscribers.
+Uses Selenium within Python to automate commenting and liking posts with certain hashtags to gain followers.
 
 To start, you will need to download a webdriver. I used the Google Chrome Webdriver at https://sites.google.com/a/chromium.org/chromedriver/downloads. 
 Then, in the code where BROWSER is initiated, you need to input the directory location of your webdriver.
