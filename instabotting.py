@@ -5,18 +5,23 @@ import random
 from selenium.webdriver.common.action_chains import ActionChains
 import os
 
-# Input the respective username, password, and hashtags
+# Input the respective username, password, and hashtags.
+# Note: AVERAGE_COMMENT_FREQUENCY must be greater than 30
 USERNAME = "luke_kenworthy"
 PASSWORD = os.environ.get("PASSWORD")
-HASHTAG_LIST = ["justinbieber", "allium", "underratedvegetable", "leeks"]
+HASHTAG_LIST = ["harvard", "computerscience", "tech", "python", "machinelearning"]
 AVERAGE_COMMENT_FREQUENCY = 80
 followedAccounts = set()
 
-display = Display(visible=0, size=(1200, 800))
+display = Display(visible=0, size=(800, 600))
 display.start()
 
-browser = selenium.webdriver.Chrome("/mnt/c/users/luke kenworthy/documents/chromedriver_win32 (1)/chromedriver.exe")
-# selenium.webdriver.Chrome()
+browser = selenium.webdriver.Chrome()
+
+# To run this locally, download the selenium webdriver then replace the value of the 'browser' variable
+# with the file path to the browser, as shown below. This worked for me on the Windows Subsystem for Linux,
+# your mileage may vary. Make sure to install all of the pip dependecies into your virtual environmnet.
+#
 # selenium.webdriver.Chrome("/mnt/c/users/luke kenworthy/documents/chromedriver_win32 (1)/chromedriver.exe")
 
 def main():
