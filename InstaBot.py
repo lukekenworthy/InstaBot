@@ -3,6 +3,8 @@ import time
 import random
 from selenium.webdriver.common.action_chains import ActionChains
 
+# hi
+
 USERNAME = "ilovecutedogs"  # Add your Instagram username here
 PASSWORD = "cuteDogsAreGr9"  # Add your Instagram password here
 HASHTAG_LIST = ["notcats", "dogs", "puppies", "cute", "cutedogs"]  # Add the hashtags you want to comment on
