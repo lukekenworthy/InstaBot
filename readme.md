@@ -55,3 +55,5 @@ kill [PID]
 to end it.
 
 11. And that's all you should need to know! You can make sure that it is working on your Instagram account by going to your profile, clicking "settings", then going to "Posts you've liked"
+
+Note: This project is still passively in development. I plan on catching certain errors in the future that have been known to come up so that the bot will continue running after it encounters them. I acually did this on a previous version but I haven't moved it over yet.
